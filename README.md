@@ -52,7 +52,7 @@ inside copy this to make wallpapers change in every
  one minute
 
 ```bash
-* * * * * bash ./autowallpaper
+* * * * * bash /data/data/com.termux/files/home/autowallpaper/autowallpaper
 ```
 then hit CTRL + x, then y for yes
 
