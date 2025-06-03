@@ -26,11 +26,11 @@ git clone https://github.com/D3-Bl0g/autowallpaper
 ```bash
 mkdir wallpapers
 ```
-   5. create folder named 'wallpaper' in internal storage
+   4. create folder named 'wallpaper' in internal storage
 
-   6. Move your desired pics to wallpaper folder
+   5. Move your desired pics to wallpaper folder
   
-   7. Copy wallpaper folder to home in wallpapers
+   6. Copy wallpaper folder to home in wallpapers
 directory
 ```bash
 cd /sdcard
@@ -50,7 +50,11 @@ cd autowallpaper
 ```bash
 chmod +x autowallpaper
 ```
-   8. make it scheduled
+8. Test it
+```bash
+./autowallpaper
+```
+ 9. make it scheduled
  ```bash    
  crontab -e
  ```
