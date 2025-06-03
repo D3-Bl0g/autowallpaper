@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 # Define wallpaper directory
-WALLPAPER_DIR="$HOME/wallpapers"
+WALLPAPER_DIR="$HOME/wallpapers/wallpaper"
 
 # Make sure folder exists
 if [ ! -d "$WALLPAPER_DIR" ]; then
