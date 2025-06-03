@@ -51,6 +51,7 @@ inside copy this to make wallpapers change in every
 
 then hit CTRL + x, then y for yes
 
-     9. To run script write crond
+To run script write 
+crond
 
 
