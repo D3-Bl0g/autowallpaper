@@ -38,7 +38,7 @@ directory
 cd /sdcard
 ```
 ```bash
-cp -r wallpaper/data/data/com.termux/files/home/wallpapers
+cp -r wallpaper /data/data/com.termux/files/home/wallpapers
 ```
 
      
