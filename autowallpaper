@@ -1,0 +1,23 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+# Define wallpaper directory
+WALLPAPER_DIR="$HOME/wallpapers"
+
+# Make sure folder exists
+if [ ! -d "$WALLPAPER_DIR" ]; then
+    echo "Wallpaper directory does not exist: $WALLPAPER_DIR"
+    exit 1
+fi
+
+# Find a random image (only .jpg or .png)
+IMAGE=$(find "$WALLPAPER_DIR" -type f -iname "*.jpg" -o -iname "*.png" | shuf -n 1)
+
+# Check if an image was found
+if [ -z "$IMAGE" ]; then
+    echo "No images found in $WALLPAPER_DIR"
+    exit 1
+fi
+
+# Optional: Set as wallpaper
+termux-wallpaper -f "$IMAGE" 
+
