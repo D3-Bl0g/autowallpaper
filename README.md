@@ -60,4 +60,4 @@ To run script write
 ```bash
 crond
 ```
-
+⚠️☢️9. Install termux-Api for better functioning 
