@@ -6,6 +6,8 @@
 In Termux, run:
 ```bash
 pkg update && pkg upgrade
+```
+```bash
 pkg install git cronie
 ```
 
