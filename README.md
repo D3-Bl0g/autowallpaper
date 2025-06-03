@@ -42,6 +42,9 @@ cp -r wallpaper/data/data/com.termux/files/home/wallpapers
      
 🏗️ 7. Run or Install the Project
 ```bash
+cd
+'''
+```bash
 cd autowallpaper
 ```
 ```bash
